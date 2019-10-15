@@ -11,7 +11,6 @@ namespace dowhilefor
             int vastaus = 1;
 
             Console.WriteLine("syötä luku, jonka kertoma lasketaan");
-            Console.Write("syötä luku: ");
             n = int.Parse(Console.ReadLine());
 
             if (n >= 1)
