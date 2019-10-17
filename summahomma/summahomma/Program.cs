@@ -9,7 +9,7 @@ namespace summahomma
             int limit, totalEven = 0, totalOdd = 0;
             Console.WriteLine("syötä luku, johon asti haluat parillisia ja parittomia lukuja laskettavan");
             limit = Convert.ToInt32(Console.ReadLine());
-            for (int n = 0; n < limit; n++)
+            for (int n = 0; n <= limit; n++)
             {
                 if (n % 2 == 0)
                 {
