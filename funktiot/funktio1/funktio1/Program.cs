@@ -14,7 +14,7 @@ namespace funktio1
                 string strStars = Star(userInput);
                 Console.WriteLine(strStars);
             }
-             else
+             else //negatiivinen luku ei toimi
             {
                 Console.WriteLine($"numero {userInput} ei ole sallittu luku");
             }
