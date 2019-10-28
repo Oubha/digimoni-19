@@ -29,7 +29,7 @@ namespace dwf2neg
                         p = (p + n);
                         n--;
                     }
-                    Console.WriteLine($"tulos on; {p}");
+                    Console.WriteLine($"tulos on: {p}");
                 }
             }
         }
