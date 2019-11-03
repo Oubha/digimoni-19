@@ -19,7 +19,6 @@ namespace arviointi4
             Console.WriteLine($"{a} - {b} = {a - b:F2}");
             Console.WriteLine($"{a} * {b} = {a * b:F2}");
             Console.WriteLine($"{a} / {b} = {a / b:F2}");
-
         }
     }
 }
