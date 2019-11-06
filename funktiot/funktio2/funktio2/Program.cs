@@ -6,7 +6,7 @@ namespace funktio2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ohjelma palauttaa kahdesta annetusta luvusta pienemmän");
+            Console.WriteLine("ohjelma selvittää kahdesta annetusta luvusta pienemmän minimi -funktion avulla");
             Console.WriteLine("syötä kaksi lukua");
             int userNumber1 = int.Parse(Console.ReadLine());
             int userNumber2 = int.Parse(Console.ReadLine());
