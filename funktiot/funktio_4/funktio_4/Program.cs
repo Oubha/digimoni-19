@@ -6,7 +6,9 @@ namespace funktio_4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("ohjelma pyytää käyttäjältä 10 positiivista kokonaislukua ja palauttaa niistä isoimman");
+            string resultMessage = MaxNumberCalculator();
+            Console.WriteLine($"syötit ohjelmalle seuraavat luvut :\n {resultMessage}");
         }
     }
 }
