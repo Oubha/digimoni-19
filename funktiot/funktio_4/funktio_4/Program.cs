@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace funktio3
+namespace funktio_4
 {
     class Program
     {
