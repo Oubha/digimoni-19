@@ -6,8 +6,11 @@ namespace funktio_4
     {
         static void Main(string[] args)
         {
+            int maxNumber = 0;
+            int sequenceOfNumber = 0;
+
             Console.WriteLine("ohjelma pyytää käyttäjältä 10 positiivista kokonaislukua ja palauttaa niistä isoimman");
-            string resultMessage = MaxNumberCalculator(ref maxNumber, ref SequenceOfNumber);
+            string resultMessage = MaxNumberCalculator(ref maxNumber, ref sequenceOfNumber);
             Console.WriteLine($"syötit ohjelmalle seuraavat luvut :\n {resultMessage}");
             Console.WriteLine($"isoin luku oli {maxNumber} ja se oli {sequenceOfNumber}. luku");
         }
@@ -20,7 +23,7 @@ namespace funktio_4
             Console.WriteLine("syötä kymmenen kokonaislukua");
             for (int i = 0; i < 10; i++)
             {
-                Console.Write($"{i + 1}");
+                Console.Write($"{i + 1}. ");
                 string userInput = Console.ReadLine();
                 bool isNumber = int.TryParse(userInput, out int userValue);
 
@@ -39,8 +42,8 @@ namespace funktio_4
                         i--;
                     }
                 }
-                return message;
             }
+            return message;
         }
     }
 }
